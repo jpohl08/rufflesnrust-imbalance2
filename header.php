@@ -10,6 +10,7 @@
 	if ( $site_description && ( is_home() || is_front_page() ) ) echo " | $site_description";
 	if ( $paged >= 2 || $page >= 2 ) echo ' | ' . sprintf( __( 'Page %s', 'imbalance2' ), max( $paged, $page ) );
 ?></title>
+<link rel="shortcut icon" href="rusty-key-favicon.png" type="image/x-icon" />
 <link rel="profile" href="http://gmpg.org/xfn/11" />
 <link rel="stylesheet" type="text/css" media="all" href="<?php bloginfo( 'stylesheet_url' ); ?>" />
 <link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>" />
